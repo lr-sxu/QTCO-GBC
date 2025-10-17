@@ -11,4 +11,5 @@ QTCO-GBC effectively addresses consensus optimization in multi-scale data evalua
 ## Code Structure
 The experimental section of the method framework consists of eight files, while the ablation and comparative experiments include twelve files in total.
 
-**·a1_DM_simulation.py：**
+* **a1_DM_simulation.py：**
+* **a2_MSISs:**
