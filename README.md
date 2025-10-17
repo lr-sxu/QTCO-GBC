@@ -21,4 +21,24 @@ The experimental section of the method framework consists of seven files：
 * **d1_Optimize.py:** A optimization model is employed to achieve consensus among subgroups.
 * **main.py:** Based on the achieved consensus, the obkectives are ranked.
   
-The ablation and comparative experiments include twelve files.
+The ablation and comparative experiments include twelve files. **E_abtion_BTOM.py, E_abtion_GB.py, and E_abtion_MSIS.py** are the codes for the ablation experiments. **E_compare1.py–E_compare9.py** are the codes for the baseline comparison methods.
+
+## Usage
+### Requirements
+`numpy 
+
+pandas
+
+math
+
+torch
+
+scikit-learn 
+
+time`
+
+### Basic Usage
+
+``
+
+### 
