@@ -9,3 +9,4 @@ QTCO-GBC is used for multi-scale data evaluation to enhance explainability, fair
 
 QTCO-GBC effectively addresses consensus optimization in multi-scale data evaluation, offering a new solution framework for decision-making problems.
 ## Code Structure
+The implementation consists of three main files:
