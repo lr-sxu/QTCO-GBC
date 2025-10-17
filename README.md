@@ -27,15 +27,10 @@ The ablation and comparative experiments include twelve files. **E_abtion_BTOM.p
 ### Requirements
 ```
 numpy 
-
 pandas
-
 math
-
 torch
-
 scikit-learn 
-
 time
 ```
 
@@ -68,6 +63,6 @@ Parameters can be adjusted, including:
 
 `𝛼:` Sensitivity parameters in consensus measurement in `c1_Trust.py and d1_Optimize.py`.
 `𝐵:` The minimum consensus increment in `c1_Trust.py`.
-`*ς*:` The consensus thresholds in `c1_Trust.py and d1_Optimize.py`.
+`ς:` The consensus thresholds in `d1_Optimize.py`.
 
 ## Experimental Results
