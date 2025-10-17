@@ -62,13 +62,15 @@ You can run the experiments from the paper by executing `main.py`.
 Parameters can be adjusted, including:
 
 `𝛼:` Sensitivity parameters in consensus measurement in `c1_Trust.py and d1_Optimize.py`.
+
 `𝐵:` The minimum consensus increment in `c1_Trust.py`.
+
 `ς:` The consensus thresholds in `d1_Optimize.py`.
 
 ## Experimental Results
 The comparison between QTCO-GBC and other baseline comparison methods is based on the following metrics:
 
-* The adjustment cost
-* The degree of group consensus improvement
+* Adjustment cost
+* Degree of group consensus improvement
 * Consensus efficiency
 * Running time
