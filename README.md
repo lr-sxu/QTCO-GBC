@@ -1,5 +1,6 @@
 # QTCO-GBC
 This repository contains the official implementation of the paper "QTCO-GBC: Quantum Trust Consensus Optimization via Granular-Ball Computing for Multi-Scale Data Evaluation". 
+
 ## Method Overview
 QTCO-GBC is used for multi-scale data evaluation to enhance explainability, fairness, and trust in data-driven decision-making. The algorithm consists of the following steps:
 
@@ -8,13 +9,16 @@ QTCO-GBC is used for multi-scale data evaluation to enhance explainability, fair
 3. **Trust and consensus optimization:** A bi-level optimization strategy determines optimal trust relationships, while a quantum consensus optimization ensures fair resource allocation.
 
 QTCO-GBC effectively addresses consensus optimization in multi-scale data evaluation, offering a new solution framework for decision-making problems.
-## Code Structure
-The experimental section of the method framework consists of seven files, while the ablation and comparative experiments include twelve files in total.
 
-* **a1_DM_simulation.py:**
-* **a2_MSISs.py:**
-* **a3_ISs.py:**
-* **b1_Cluster_GB.py:**
-* **c1_Trust.py:**
-* **d1_Optimize.py:**
-* **main.py:**
+## Code Structure
+The experimental section of the method framework consists of seven files：
+
+* **a1_DM_simulation.py:** Thirty simulated datasets were generated from the initial data by applying normal distribution.
+* **a2_MSISs.py:** An encoder is employed to transform each dataset from a single-scale information system into a multi-scale information system and to learn scale weights for fusing features across multiple scales.
+* **a3_ISs.py:** The fused information is obtained.
+* **b1_Cluster_GB.py:** K-Means is applied for clustering, and granular-ball structures are generated to represent subgroup features.
+* **c1_Trust.py:** Stable trust relationships are obtained through a bi-level optimization strategy.
+* **d1_Optimize.py:** A optimization model is employed to achieve consensus among subgroups.
+* **main.py:** Based on the achieved consensus, the obkectives are ranked.
+  
+The ablation and comparative experiments include twelve files.
