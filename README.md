@@ -41,6 +41,33 @@ time
 
 ### Basic Usage
 
-``
+```
+# Load datasets
+read_excel_from_second_row_pandas(file_path)
 
-### 
+# The acquisition of multi-scale information
+process_single_matrix()
+
+# Subgroup clustering
+cluster_decision_makers()
+
+# Subgroup structures
+generat_granular_ball()
+
+# The acquisition of stable trust relationships
+optimize_multi_random_T()
+
+# Consensus optimization
+optimize_layer()
+```
+
+### Running Experiments
+You can run the experiments from the paper by executing `main.py`.
+
+Parameters can be adjusted, including:
+
+`𝛼:` Sensitivity parameters in consensus measurement in `c1_Trust.py and d1_Optimize.py`.
+`𝐵:` The minimum consensus increment in `c1_Trust.py`.
+`*ς*:` The consensus thresholds in `c1_Trust.py and d1_Optimize.py`.
+
+## Experimental Results
