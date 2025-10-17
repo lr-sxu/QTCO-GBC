@@ -10,4 +10,5 @@ QTCO-GBC is used for multi-scale data evaluation to enhance explainability, fair
 QTCO-GBC effectively addresses consensus optimization in multi-scale data evaluation, offering a new solution framework for decision-making problems.
 ## Code Structure
 The experimental section of the method framework consists of eight files, while the ablation and comparative experiments include twelve files in total.
-·a1_DM_simulation.py
+
+**·a1_DM_simulation.py：**
