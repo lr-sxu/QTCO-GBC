@@ -66,3 +66,9 @@ Parameters can be adjusted, including:
 `ς:` The consensus thresholds in `d1_Optimize.py`.
 
 ## Experimental Results
+The comparison between QTCO-GBC and other baseline comparison methods is based on the following metrics:
+
+* The adjustment cost
+* The degree of group consensus improvement
+* Consensus efficiency
+* Running time
